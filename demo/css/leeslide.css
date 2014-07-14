@@ -1,0 +1,64 @@
+html{
+	overflow: hidden;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+ 
+
+ .lsd-container{
+ 	position: absolute;
+ 	z-index: 1;
+ 	left:0;
+ 	top:0;
+}
+
+ .lsd-tab{
+ 	position: absolute;
+ 	z-index: 2;
+ 	left: -50px;
+ 	top: 0;
+ 	overflow: hidden;
+ 	width: 80px;
+ 	height: 100%;
+ 	background: #4183C4 ;
+}
+
+ .lsd-tab ul{
+ 	 
+}
+
+ .lsd-tab ul li{
+ 	float: left;
+ 	width: 80px;
+ 	height: 80px;
+ 	font-size: 14px; 
+ 	cursor: pointer;
+ 	text-align: center;
+ 	line-height: 80px;
+ 	color:#fff;
+ 	text-shadow:1px 1px 4px #333;
+}
+
+.lsd-tab ul .current{
+ 	background: #ffcc00;
+}
+
+ .lsd-tab ul li:hover{
+ 	font-size:16px;
+}
+
+
+.lsd-box{
+	 
+}
+ 
