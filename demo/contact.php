@@ -6,9 +6,9 @@ include_once('include/base-config.php');
 <head>
 	<meta charset="UTF-8" />
 	<title>Contact Leedow</title>
-	<script src="<?php echo constant('INC_URL');?>jquery-1.10.1.min.js"></script> 
-	<link rel="stylesheet" type="text/css" href="<?php echo constant('INC_URL');?>lee-style.css"/>
-	<link rel="stylesheet" type="text/css" href="<?php echo constant('SAE_URL');?>css/style.css"/>	 
+	<script src="../js/jquery-1.10.1.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css/lee-style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>	 
 </head>
 <body>
 	 <div class="contact-box">
