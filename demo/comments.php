@@ -6,7 +6,7 @@ include_once('include/base-config.php');
 <head>
 	<meta charset="UTF-8" />
 	<title>Comments of Leedow</title>
-	<link rel="stylesheet" type="text/css" href="css/lee-style.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo constant('INC_URL');?>lee-style.css"/>
 	<!--
 	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3115725149" type="text/javascript" charset="utf-8"></script>
 	-->

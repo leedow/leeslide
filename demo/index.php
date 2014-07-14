@@ -6,11 +6,12 @@ include_once('include/base-config.php');
 <head>
 	<meta charset="UTF-8" />
 	<title>Leedow</title>
-	<script src="../js/jquery-1.10.1.min.js"></script> 
-	<script src="../js/jquery.leeslide.js"></script> 
-	<link rel="stylesheet" type="text/css" href="css/lee-style.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>	 
-	<link rel="stylesheet" type="text/css" href="../style/leeslide.css"/>
+	<script src="<?php echo constant('INC_URL');?>jquery-1.10.1.min.js"></script> 
+	<script src="<?php echo constant('INC_URL');?>jquery.leeslide.js"></script> 
+	<link rel="stylesheet" type="text/css" href="<?php echo constant('INC_URL');?>lee-style.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo constant('SAE_URL');?>css/style.css"/>	 
+	<link rel="stylesheet" type="text/css" href="<?php echo constant('SAE_URL');?>css/leeslide.css"/>
+	<meta property="wb:webmaster" content="de9450b9e6a60d6d" />	 	 
 </head>
 <body scroll="no">
 
@@ -21,7 +22,7 @@ include_once('include/base-config.php');
 			
 			<div class="container avatar">
 				<h1>
-					<img src="img/leedow-carton.png" />
+					<img src="<?php echo constant('IMG_URL');?>leedow-carton.png" />
 				</h1>
 				<p class="base-info">
 					<?php 
@@ -54,18 +55,18 @@ include_once('include/base-config.php');
 			<div class="container">
 				<div class="copyright">
 					<p class="p2">
-					<img src="img/leedow.png" align="left"/>
+					<img src="<?php echo constant('IMG_URL');?>leedow.png" align="left"/>
 					     Copyright © 2014 All Rights Reserved
 					     
 					</p>
 					<p class="p1">
 						感谢   &nbsp;&nbsp;
 						<a href="http://sae.sina.com.cn/"  target="_blank">
-<img src="img/sae-logo.png"  border="0" /> 
+<img src="<?php echo constant('IMG_URL');?>sae-logo.png"  border="0" /> 
 						</a>
 					&nbsp;&nbsp;&&nbsp;&nbsp;
 					<a href="http://www.qiniu.com/" target="_blank">
-<img src="img/qiniu-logo.png"  border="0"/>
+<img src="<?php echo constant('IMG_URL');?>qiniu-logo.png"  border="0"/>
 					</a>
 					&nbsp;&nbsp;提供云服务
 					</p>
@@ -94,7 +95,7 @@ include_once('include/base-config.php');
 	<div class="lsd-tab">
 		<ul class="text-shadow">
 			<li class="lsd-rm">主 页</li>
-			<li class="lofter lsd-hide">Lofter</li>
+			<li class="lofter">Lofter</li>
 			<li class="weibo">微 博</li>
 		 	<li class="contact">联 系</li>
 		 	<li class="comments">留 言</li>
